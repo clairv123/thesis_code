@@ -19,7 +19,7 @@ gcloud functions deploy probability_calculator \
 
 gcloud functions deploy probability_calculator_fs_trigger \
 --runtime=python38 \
---service-account=sandbox-clairv@appspot.gserviceaccount.com \
+--service- \
 --region=europe-west1 \
 --entry-point=main \
 --memory=2048MB \
