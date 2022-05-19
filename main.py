@@ -7,10 +7,6 @@ import gcsfs
 from main_modules import scrape_time, stream_to_firestore
 from stream_to_bq import stream_to_bq
 
-# from os import environ
-# environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/davyvanderhorst/Desktop/Code/VisualCode/Macbook_2020/Jumbo/JODP Stream/Service Accounts/App Engine default service account.json"
-
-
 root = path.dirname(path.abspath(__file__))
 bq_endpoint = "https://europe-west1-ux-datasources.cloudfunctions.net/stream_to_bigquery"
 
