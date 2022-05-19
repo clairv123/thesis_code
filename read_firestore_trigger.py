@@ -9,7 +9,7 @@ def force_to_dict(request):
 
 
 def send_array(events, endpoint= "/"):
-    url = f"https://probability-calculator-7cj5ru24ga-ew.a.run.app{endpoint}"
+    url = 
 
     payload = json.dumps({
     "events": events
