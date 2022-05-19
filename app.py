@@ -3,9 +3,6 @@ from flask import Flask, request
 from flask_cors import CORS
 from main_modules import force_to_dict
 
-# from os import environ
-# environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/davyvanderhorst/Desktop/Code/VisualCode/Macbook_2020/Jumbo/JODP Stream/Service Accounts/App Engine default service account.json"
-
 ### main program
 from main import main, lstm_model, rnn_model, gru_model
 
