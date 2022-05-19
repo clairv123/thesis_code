@@ -1,9 +1,6 @@
 from google.cloud import firestore
 import datetime
 
-from os import environ
-environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/davyvanderhorst/Desktop/Code/VisualCode/Macbook_2020/Sandbox/Clair/Probability Calculator/probability-calculator/Credentials/FireStore Service Account.json"
-
 DB = firestore.Client()
 
 def stream_to_firestore(collection_name: str, document_name: str, event: str) -> str:
